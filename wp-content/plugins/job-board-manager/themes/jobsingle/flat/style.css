@@ -1,0 +1,196 @@
+@charset "utf-8";
+/* CSS Document */
+
+.job-single {
+  line-height: normal;
+}
+
+.job-single .continer-main {
+  display: inline-block;
+  width: 60%;
+  vertical-align: top;
+}
+
+
+
+
+
+
+.job-single .title {
+  font-size: 25px;
+  margin: 0 0 15px;
+}
+.job-single .content{}
+
+
+.job-single .meta-container {
+  margin: 20px 0;
+}
+
+.job-single .job-meta {
+  display: inline-block;
+  font-size: 13px;
+  margin: 5px 4px;
+  padding: 3px 10px;
+}
+
+.job-single .job-meta a {
+  text-decoration: none;
+}
+.job-single .fa {
+  padding-right: 5px;
+}
+
+.job-single .job_type a, .job-single .job_type i {
+color: rgb(255, 255, 255);
+}
+
+.job-single .job_type {
+  display: inline-block;
+  font-size: 13px;
+  padding: 3px 10px;
+}
+
+.job-single .job_type.freelance {
+  background: none repeat scroll 0 0 rgb(70, 166, 255);
+  
+}
+.job-single .job_type.full-time {
+  background: none repeat scroll 0 0 rgb(46, 194, 116);
+
+}
+
+.job-single .job_type.internship {
+  background: none repeat scroll 0 0 rgb(160, 102, 255);
+
+}
+.job-single .job_type.part-time {
+  background: none repeat scroll 0 0 rgb(255, 194, 77);
+
+}
+
+.job-single .job_type.temporary {
+  background: none repeat scroll 0 0 rgb(255, 87, 65);
+}
+
+/*########################*/
+
+
+
+.job-single .job_status {
+  color: rgb(255, 255, 255);
+
+}
+
+.job-single .job_status a{
+  color: rgb(255, 255, 255);
+
+}
+
+.job-single .job_status.open {
+  background: none repeat scroll 0 0 rgb(58, 193, 112);
+}
+
+.job-single .job_status.closed {
+  background: none repeat scroll 0 0 rgb(250, 50, 24);
+  
+}
+
+.job-single .job_status.filled {
+  background: none repeat scroll 0 0 rgb(73, 162, 237);
+}
+
+.job-single .job_status.re-open {
+  background: none repeat scroll 0 0 rgb(47, 194, 249);
+}
+.job-single .job_status.expired {
+  background: none repeat scroll 0 0 rgb(255, 65, 21);
+}
+
+
+/*########################*/
+.job-single .continer-side {
+  display: inline-block;
+  width: 40%;
+}
+
+.job-single .continer-side .section {
+  margin-bottom: 30px;
+  padding: 0 15px 0 50px;
+}
+
+.job-single .continer-side .company_name {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.job-single .continer-side .company_name img {
+  box-shadow: none;
+  height: 50px;
+  margin-right: 10px;
+  overflow: hidden;
+  vertical-align: top;
+  width: 50px;
+}
+
+.job-single .continer-side .location {
+
+}
+
+.job-single .continer-side .address {
+
+
+}
+
+.job-single .continer-side .website {
+
+}
+
+.job-single .continer-side .website a{
+	text-decoration:none;
+}
+
+.job-single .continer-side .side-meta {
+  font-size: 13px;
+  padding: 8px 0;
+}
+
+.job-single .apply-job {
+  background: none repeat scroll 0 0 rgb(87, 178, 255);
+  color: rgb(255, 255, 255);
+  margin: 0 10px;
+  padding: 4px 10px;
+  text-decoration: none;
+}
+
+
+@media all and (max-width: 699px) {
+	
+	
+.job-single .continer-main {
+  display: block;
+  width: 100%;
+
+}
+	
+.job-single .continer-side {
+  display: block;
+  width: 100%;
+}
+.job-single .continer-side .section {
+  display: inline-block;
+  margin-bottom: 30px;
+  padding: 0 15px;
+  vertical-align: top;
+  width: 250px;
+}
+	
+	}
+
+
+
+
+
+
+
+

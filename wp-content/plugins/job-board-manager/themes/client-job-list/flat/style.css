@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+.client-job-list {
+  line-height: normal;
+}
+
+.client-job-list .single {
+  border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.client-job-list .single .list-meta {
+  font-size: 12px;
+  vertical-align: top;
+}
+
+.client-job-list .single .title {
+  max-width: 150px;
+  min-width: 150px;
+}
+
+
+
+
+
+
+.client-job-list .paginate {
+  text-align: center;
+}
+
+.client-job-list .paginate .page-numbers {
+  background: none repeat scroll 0 0 rgb(84, 207, 116);
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  padding: 1px 6px;
+  text-decoration: none;
+}
+.client-job-list .paginate .current {
+  background: none repeat scroll 0 0 rgb(50, 176, 82);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
